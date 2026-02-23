@@ -1,0 +1,17 @@
+ML- Machine Learning , basically we enable the machine to learn from its outcome.
+3 types of ML
+1.) Supervised- Supervised and output is corrected by humans (given the correct answer).
+2.) Unsupervised - Not supervised learn from its own output (basically grouping or clustering).
+3.) Reinforcement - Reward/punishment
+
+
+Skills:
+-proficiency in programming languages like Python,R
+-a strong understanding of statistical concepts(Maths)
+-experience with machine learning frameworks(projects, knowledge of ML models in depth).
+
+Responsibilities:
+-data collection and preprocessing
+-model selection and training
+-performance evaluation
+-continuous model improvement.
