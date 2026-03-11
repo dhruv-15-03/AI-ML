@@ -1,0 +1,36 @@
+1.)Important topics of discrete maths for ML
+-Set Operations & Notation: Union, intersection, complement, set difference, and Venn diagrams are used in database queries, feature selection, and probability theory.
+-Cardinality: Essential for understanding the size of training sets and sample spaces.
+-Relations & Functions: Specifically, equivalence relations, functions (injection, surjection, bijection), domain, range, and composition. These are fundamental for modeling data transformations, mappings, and classification labels.
+-Power Sets & Cartesian Products: Used to understand feature spaces and combinations of features. 
+
+-Core Discrete Math & Graph Topics
+-Graph Theory: Nodes, edges, adjacency matrices, and graphs are critical for network analysis, recommendation engines, and neural network architectures (specifically graph neural networks).
+-Combinatorics: Permutations(order matter) and combinations(order does not matters) are essential for counting, probability, and analyzing algorithmic complexity.
+-Logic & Proof Techniques: Propositional logic, Boolean algebra, truth tables, and quantifiers are used to build decision trees and refine algorithmic conditions.
+
+2.) Key PDF
+-Gaussian (Normal) Distribution: The foundation of many algorithms (e.g., Linear Regression, Gaussian Naive Bayes), it models continuous data using a bell-shaped curve defined by mean and variance 
+-Bernoulli Distribution: Models a single binary random variable (0 or 1), such as a coin flip or binary classification success/failure, with probability
+-Multinomial Distribution: Generalizes the binomial distribution to model outcomes across multiple, distinct categories (e.g., classifying text into one of categories).
+-Categorical Distribution: A special case of the multinomial distribution for a single trial, often used in the output layer (softmax) of neural networks for multi-class classification.
+-Binomial Distribution: Models the number of successes (k) in a fixed number (r) of independent Bernoulli trials.
+-Uniform Distribution: All outcomes in a specified range are equally likely, often used for initializing weights in neural networks or sampling.
+-Exponential Distribution: Models the time or space between events in a Poisson process, useful for reliability engineering or survival analysis.
+-Poisson Distribution: Represents the number of times an event occurs in a fixed interval of time or space, assuming a constant average rate.
+-Log-Normal Distribution: Models variables whose logarithm is normally distributed, commonly used for skewed data like income or stock prices.
+-Chi-Square Distribution: Used extensively in statistics for hypothesis testing, such as measuring independence between categorical variables
+
+
+A u B = A+B
+A & B = A.B
+A - B = A-B 
+
+A, B , C , D
+Modus Ponnens - A, A-> B
+		B
+Modus Tollens - A->B
+		-A
+		-B
+
+Baye's Theorm= P(a/b)=(P(a).P(b/a))/P(b)
