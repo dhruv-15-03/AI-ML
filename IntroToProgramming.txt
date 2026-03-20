@@ -1,0 +1,7 @@
+1.) What is programming, why ?
+2.) Basics of language , program , problem solving ?
+3.) Python basics what it does?
+4.) How to write a python program, syntax?
+5.) Data types
+6.) Operators 
+7.) Loops, conditional
