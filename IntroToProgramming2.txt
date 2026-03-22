@@ -1,0 +1,138 @@
+1.) What is programming, why ?
+2.) Basics of language , program , problem solving ?
+3.) Python basics what it does?
+4.) How to write a python program, syntax?
+5.) Data types
+6.) Operators
+7.) Loops, conditional(break, continue) -range
+8.) OOPS (object oriented programming)
+
+website- https://docs.python.org/3/tutorial/index.html
+
+Normal Programming Question
+1.) Read the problem
+2.) Think (brainstorm) 
+3.) Write the code in pseudo code.
+4.) Check correctness with dry run
+
+Python
+1.) Read the problem
+2.) Think
+3.) Think if there's a direct function for that
+4.) Write code
+
+
+Pseudo code:
+input(x, Arr)
+for 1 to n
+if Arr[k] ==x
+found, exit
+end
+
+Parameters - values that are passed to the functions.
+
+Type conversion-
+Explicit- Forcefully h->l
+Implicit-Automatically l->h
+
+for i in range (1,6):
+    for j in range (0,i):
+        print(j,end="")
+    print()
+1-> 0
+2-> 0,1
+3-> 0,1,2
+4-> 0,1,2,3
+5-> 0,1,2,3,4
+
+
+*****
+****
+***
+**
+*
+
+  *
+ ***
+*****
+
+1
+22
+333
+4444
+55555
+
+
+1.) Abstraction - Showing only required features and hiding all the complex process behind.
+def dis(n):
+    amt=0
+    if(n<1000):
+        amt=n-(int)(0.05*n)
+    elif(n<5000):
+        amt=n-(int)(0.1*n)
+    else:
+        amt=n-(int)(0.15*n)
+    print("Final amount to pay : {amt}")
+# print("Enter the amount")
+n=(int)(input("Enter the amount : "))
+dis(n)
+
+2.) Encapsulation - Binding the module and providing the functionality for which user has access.
+class Bank:
+    def __init__(self,amount):
+        self.__balance=amount
+    @property
+    def getBalance(self):
+        return self.__balance
+    def deposit(self, amount):
+        self.__balance+=amount
+    def withdraw(self, amount):
+        self.__balance-=amount
+    
+Dhruv=Bank(2000)
+print(Dhruv.getBalance)
+Dhruv.deposit(1000)
+print(Dhruv.getBalance)
+Dhruv.withdraw(2500)
+print(Dhruv.getBalance)
+
+3.) Inheritance - Child class inherits the property of a parent class
+class Animal:
+    def __init__(self,name):
+        self.name=name
+    def message(self):
+        print(f"{self.name} is an animal")
+
+class Dog(Animal):
+    def __init__(self,name):
+        self.name=name
+    def spmessage(self, leg=4):
+        print(f"{self.name} is a {leg} leg dog")
+        
+a=Animal("B")
+a.message()
+c=Dog('D')
+c.message()
+c.spmessage(3)
+
+4.) Polymorphism - Function behave differently for different objects.
+class Animal:
+    def __init__(self,name):
+        self.name=name
+    def message(self):
+        print(f"{self.name} is an animal")
+
+class Dog(Animal):
+    def __init__(self,name):
+        self.name=name
+    def message(self, leg=4):
+        print(f"{self.name} is a {leg} leg dog")
+        
+a=Animal("B")
+a.message()
+c=Dog('D')
+c.message()
+c.message(3)
+
+Class - blueprint to create object
+object- real world entity
