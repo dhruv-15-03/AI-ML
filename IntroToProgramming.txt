@@ -3,5 +3,62 @@
 3.) Python basics what it does?
 4.) How to write a python program, syntax?
 5.) Data types
-6.) Operators 
-7.) Loops, conditional
+6.) Operators
+7.) Loops, conditional(break, continue)
+8.) OOPS (object oriented programming)
+
+
+code-> compiler/interpreter -> machine language
+algorithms, 						flowcharts
+Add 2 no.
+1.) gather two numbers
+2.) Add them
+3.) Display them
+
+
+variable, keywords, constants, operators , comments
+keyword- reserved words of any language.
+variable- container to hold a value. (must not be a keyword)!
+operators- perform operations on operands!
+arithmetic- +,-,/,*,//,%
+logical - and , or , not
+relational - >,<,>=,<=,==,===,!==
+ternery - condition? Statement 1: statement 2 (condition =true (statement 1), otherwise , statement 2)
+//
+/*
+*
+**/
+
+data types: numeric, dictionary, Boolean, sets, sequence, character
+numeric- integer (-3,42,2), complex (a+ib), float(3.4)
+dictionary (x)  - {
+    'size': 'fat',          # key: 'size', value: 'fat'
+    'color': 'gray',         # key: 'color', value: 'gray'
+    'disposition': 'loud'    # key: 'disposition', value: 'loud'
+}
+x['size']=
+Boolean = true/false
+1 bit
+set={}, eg [1,2,3,4,,7,9,9,9,0,0,0,0,0,0,1,1,1,1,1,2,2,2,2,2,2,2,3,3,3,1,1,1,2,2,,3,3]
+character = 'q';A-Z(65-90), a-z(97,122) , 0-9 49-57
+strings= "afiewnf222ewnfuwb"
+arrays = [1,2,3]
+
+list=['1', "22", "ed", 32]
+tuple= ()
+ {function}()=> ......
+ for, while, do-while -loops
+while(i!=100)
+if, else
+if(a>b):
+	print (a)
+c=5
+elif(a==b):
+	print (a+b)
+else:
+	print (b)
+
+switch (expr)
+case (val):
+case (vale2)
+default:
